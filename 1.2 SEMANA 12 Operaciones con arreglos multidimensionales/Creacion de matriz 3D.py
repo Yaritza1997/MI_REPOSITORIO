@@ -1,6 +1,6 @@
 # DEFINICION DE MATRIZ 3D CON VARIAS TEMPERATURAS
 # 3 ciudades
-# 3 semanas
+# 4 semanas
 # 5 dias
 
 temperaturas = [
@@ -44,7 +44,7 @@ temperaturas = [
 for i, ciudad in enumerate(temperaturas):
     print(f"Ciudad {i + 1}:")
 
-    # Recorrer las semanas para la ciudad actual
+# Recorrer las semanas para la ciudad actual
     for j, semana in enumerate(ciudad):
         promedio = sum(semana) / len(semana)  # Calcular el promedio de la semana
-        print(f"  Semana {j + 1}: Promedio de temperatura = {promedio:.2f}")
+        print(f"  Semana {j + 1}: Promedio de temperatura = {promedio:.2f}ºC")
