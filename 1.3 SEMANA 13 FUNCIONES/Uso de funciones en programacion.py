@@ -68,3 +68,4 @@ while True:
         print(f"La temperatura promedio de {ciudad_seleccionada} es {promedios[ciudad_seleccionada]:.2f}°C")
     else:
         print("Opción inválida. Intente nuevamente.")
+
